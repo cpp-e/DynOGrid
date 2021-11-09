@@ -1,0 +1,29 @@
+{
+  "name": "dynogrid",
+  "version": "1.0.0",
+  "description": "Dynamic Grid Object",
+  "main": "DynOGrid-1.0.0.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpp-e/DynOGrid.git"
+  },
+  "keywords": [
+    "DynOGrid",
+    "Grid",
+    "Dynamic",
+    "Object",
+    "Table"
+  ],
+  "author": "Kamal Abdel Wahab",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cpp-e/DynOGrid/issues"
+  },
+  "homepage": "https://github.com/cpp-e/DynOGrid#readme"
+}

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>User Creation</title>
+        <link href="app.css" rel="stylesheet" />
+        <script src="arch.js"></script>
+        <script src="structure.js"></script>
+        <script src="DynOGrid-1.0.0.min.js"></script>
+    </head>
+    <body>
+        <button id="addUser">Add User</button>
+        <table id="userTable"></table>
+        <button id="toObject">Print Object</button>
+		<button id="toJSON">Print JSON</button>
+		<script>
+		var tab = d$.create('#userTable', accountStruct);
+		document.querySelector('#addUser').addEventListener('click', function(){
+			tab.add();
+		});
+		document.querySelector('#toObject').addEventListener('click', function(){
+			console.log(tab.value);
+		});
+		document.querySelector('#toJSON').addEventListener('click', function(){
+			console.log(d$('#userTable').json);
+		});
+		</script>
+    </body>
+</html>
