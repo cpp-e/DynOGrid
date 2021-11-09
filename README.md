@@ -50,7 +50,7 @@ npm install dynogrid
     };
     d$('#mytable', mystructure);
     document.querySelector('#btnAdd').addEventListener('click', function(){
-		d$('#mytable').add();
-	});
+        d$('#mytable').add();
+    });
 </script>
 ```
