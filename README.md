@@ -9,6 +9,7 @@ npm install dynogrid
 ## Usage
 ```html
 <script src="DynOGrid-1.0.0.min.js" />
+<button id="btnAdd">Add</button>
 <table id="mytable">
 <script>
     var arch = {
@@ -48,5 +49,8 @@ npm install dynogrid
         'userpath': {'type': 'readonly', 'value': '$arch[">team"]["BasePath"]$arch[">team"]["packages"][">package"]["path"]/>name'}
     };
     d$('#mytable', mystructure);
+    document.querySelector('#btnAdd').addEventListener('click', function(){
+		d$('#mytable').add();
+	});
 </script>
 ```
