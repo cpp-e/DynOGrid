@@ -1,5 +1,5 @@
 /*!
- * DynOGrid v1.0.0
+ * DynOGrid v1.0.1
  * https://github.com/cpp-e/DynOGrid
  *
  * (c) Copyright cpp-e
@@ -18,7 +18,7 @@
 })( window || this, function(){
 "use strict";
 
-let version = "1.0.0";
+let version = "1.0.1";
 
 function closest(elm, selector){
 	if(elm.closest)

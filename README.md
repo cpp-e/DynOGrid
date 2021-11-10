@@ -8,7 +8,7 @@ npm install dynogrid
 
 ## Usage
 ```html
-<script src="DynOGrid-1.0.0.min.js" />
+<script src="DynOGrid-1.0.1.min.js" />
 <button id="btnAdd">Add</button>
 <table id="mytable">
 <script>
